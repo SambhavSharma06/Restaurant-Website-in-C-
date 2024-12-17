@@ -1,5 +1,4 @@
 <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SambhavRestaurant.Site" %>
-
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
