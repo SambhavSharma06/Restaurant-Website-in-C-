@@ -1,0 +1,53 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SambhavRestaurant.Site" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Sambhav's Restaurant</title>
+
+    <link rel="icon" type="image/x-icon" href="Images/Logo sam.png" />
+
+    <link rel="stylesheet" type="text/css" href="SiteMaster.css" />
+
+    <script src="SiteMaster.js" defer></script>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+        <div class="container">
+
+            <header>
+                <div class="header">
+
+                    <h1>Sambhav's Restaurants</h1>
+                    <p>Delicious food, made fresh every day!</p>
+
+                    <nav class="navbar">
+                        <ul class="nav-menu">
+                            <li><a href="Home.aspx">Home</a></li>
+                            <li><a href="Menu.aspx">Menu</a></li>
+                            <li><a href="Staff.aspx">Our Staff</a></li>
+                            <li><a href="FAQ.aspx">FAQ</a></li>
+                            <li><a href="BookTable.aspx">Book a Table</a></li>
+                            <li><a href="ShowData.aspx">Show Data</a></li>
+                            <li><a href="Calculator.aspx">Calculator</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+
+            <div id="main-content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+
+            <footer>
+                <div class="footer">
+
+                    <p>&copy; 2024 Sambhav's Restaurants | All rights reserved</p>
+                </div>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
