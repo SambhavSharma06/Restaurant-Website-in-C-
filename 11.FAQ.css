@@ -1,0 +1,45 @@
+<%@ Page Title="FAQ" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeBehind="FAQ.aspx.cs" Inherits="SambhavRestaurant.Contact" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+
+    <link href="FAQ.css" rel="stylesheet" />
+    <script src="FAQ.js"></script>
+    <div class="faq-container">
+        <h1>Restaurant FAQ</h1>
+
+
+        <div class="faq-section">
+
+            <div class="faq-item">
+                <h3 class="faq-question">What are your opening hours?</h3>
+                <p class="faq-answer">We are open Monday to Sunday from 8:00 AM to 10:00 PM.</p>
+            </div>
+
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Where is your restaurant located?</h3>
+                <p class="faq-answer">1234 Food Street, Gourmet City, India.</p>
+            </div>
+
+           
+            <div class="faq-item">
+                <h3 class="faq-question">Do you take reservations?</h3>
+                <p class="faq-answer">Yes, reservations are recommended for weekends. Call us at +99 123 456 7890 to book a table.</p>
+            </div>
+
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Do you offer delivery or takeout?</h3>
+                <p class="faq-answer">Yes, we offer both. You can order via our website or call us directly.</p>
+            </div>
+
+            
+            <div class="faq-item">
+                <h3 class="faq-question">Is your restaurant family-friendly?</h3>
+                <p class="faq-answer">Absolutely! We have a kids' menu and high chairs available.</p>
+            </div>
+        </div>
+    </div>
+    <a href="BookTable.aspx" class="Table-float-btn">Booking</a>
+    <a href="Staff.aspx" class="Staff-float-btn">Our Staff</a>
+</asp:Content>
