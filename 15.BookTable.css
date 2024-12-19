@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+h2 {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 48px;
+    margin-top: 50px;
+    font-family: 'Cursive', sans-serif;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#bookingForm {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+    #bookingForm h3 {
+        text-align: center;
+        color: #27ae60;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+.form-input {
+    display: block;
+    width: 96.5%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #e74c3c;
+    border-radius: 5px;
+    font-size: 17.6px;
+    background-color: #fff;
+}
+
+    .form-input:focus {
+        border-color: #27ae60;
+        outline: none;
+    }
+
+
+.btn-primary {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 19.2px;
+    cursor: pointer;/* Chnage the cursor */
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #a53030;
+    }
+
+
+.Data-float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d23d3d;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 12px;
+    font-size: 20.8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .Data-float-btn:hover {
+        background-color: #a53030;
+        transform: translateY(-5px);
+    }
+
+.FAQ-float-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #d23d3d;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 12px;
+    font-size: 20.8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .FAQ-float-btn:hover {
+        background-color: #a53030;
+        transform: translateY(-5px);
+    } now do for this.
