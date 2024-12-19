@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.faq-container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+    .faq-container h1 {
+        font-size: 40px;
+        color: #e74c3c;
+        margin-bottom: 30px;
+    }
+
+
+.faq-section {
+    margin-top: 20px;
+}
+
+
+.faq-item {
+    background-color: #fff;
+    border: 2px solid #000000; 
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.faq-question {
+    font-size: 22.4px;
+    color: #64be20;
+    /* Changes the mouse cursor to a hand */
+    cursor: pointer;
+    padding: 10px 0;
+    transition: color 0.3s ease;
+}
+
+
+.faq-answer {
+    display: none;
+    font-size: 17.6px;
+    color: #7f8c8d;
+    padding-top: 10px;
+}
+
+.faq-question:hover {
+    color: red; 
+}
+
+
+.Table-float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d23d3d; 
+    color: white;
+    padding: 18px 25px; 
+    border-radius: 12px;
+    font-size: 20.8px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .Table-float-btn:hover {
+        background-color: #a53030; 
+        transform: translateY(-5px);
+    }
+.Staff-float-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px; 
+    background-color: #d23d3d;
+    color: white;
+    padding: 18px 25px; 
+    border-radius: 12px; 
+    font-size: 20.8px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+
+Staff-float-btn:hover {
+    background-color: #a53030;
+    transform: translateY(-5px);
+}
