@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    color: #e74c3c;
+    font-size: 48px;
+    margin-top: 50px;
+    font-family: 'Cursive', sans-serif;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.grid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+    .grid-table th, .grid-table td {
+        border: 1px solid #e74c3c; 
+        padding: 10px;
+        text-align: center;
+    }
+
+    .grid-table th {
+        background-color: #e74c3c; 
+        color: white;
+    }
+
+    .grid-table td {
+        background-color: #fff;
+    }
+
+    .grid-table tr:nth-child(even) {
+        background-color: #f9f9f9; 
+    }
+
+    .grid-table tr:hover {
+        background-color: #f0f0f0;  
+    }
+
+
+.floating-button {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 24px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+    .floating-button:hover {
+        background-color: #2ecc71; 
+        transform: scale(1.1); 
+}
+
+.Calculator-float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #d23d3d;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 12px;
+    font-size: 20.8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .Calculator-float-btn:hover {
+        background-color: #a53030; 
+        transform: translateY(-5px);
+    }
+.BookTable-float-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #d23d3d;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 12px;
+    font-size: 20.8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .BookTable-float-btn:hover {
+        background-color: #a53030; 
+        transform: translateY(-5px); 
+    }
