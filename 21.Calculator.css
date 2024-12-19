@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.description {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 19.2px;
+    color: #006400;
+    font-weight: bold;
+}
+
+
+.calculator-form {
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #d32f2f; 
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+  
+    .calculator-form label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        font-size: 16px;
+        color: #b22222; 
+    }
+
+
+.calc-input {
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:16px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+
+.btn-primary {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #006400;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+    .btn-primary:hover {
+        background-color: #228b22; 
+    }
+
+
+.result-label {
+    display: block;
+    margin-top: 20px;
+    font-size: 19.2px;
+    font-weight: bold;
+    text-align: center;
+    color: #b22222;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 2px solid #d32f2f;
+    border-radius: 5px;
+}
+
+.Data-float-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #d23d3d;
+    color: white;
+    padding: 18px 25px;
+    border-radius: 12px;
+    font-size: 20.8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-decoration: none;
+}
+
+    .Data-float-btn:hover {
+        background-color: #a53030; 
+        transform: translateY(-5px); 
+    }
